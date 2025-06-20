@@ -1,0 +1,6 @@
+import requests
+usl="https://postman-echo.com/get"
+querystring={"test":"123"}
+header ={}
+response=requests.request("GET",url,headers=header,params=querystring)
+print(response.txt)

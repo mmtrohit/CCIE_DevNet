@@ -1,0 +1,27 @@
+{
+    "inventory": {
+        "device": [
+            {
+                "name": "router1",
+                "username": "admin1",
+                "password": "admin1",
+                "vendor": "cisco",
+                "os": "ios"
+            },
+            {
+                "name": "arista2",
+                "username": "admin2",
+                "password": "admin2",
+                "vendor": "arista",
+                "os": "eos"
+            },
+            {
+                "name": "srx3",
+                "username": "admin3",
+                "password": "admin3",
+                "vendor": "juniper",
+                "os": "junos"
+            }
+        ]
+    }
+}

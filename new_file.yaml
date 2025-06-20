@@ -1,0 +1,17 @@
+inventory:
+  device:
+  - name: router1
+    os: ios
+    password: admin1
+    username: admin1
+    vendor: cisco
+  - name: arista2
+    os: eos
+    password: admin2
+    username: admin2
+    vendor: arista
+  - name: srx3
+    os: junos
+    password: admin3
+    username: admin3
+    vendor: juniper
