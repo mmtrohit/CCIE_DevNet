@@ -1,4 +1,4 @@
-# Name of the workflow as it will appear in the GitHub Actions tab
+ #Name of the workflow as it will appear in the GitHub Actions tabAdd commentMore actions
 name: Deploy AWS Infrastructure with Terraform
 
 # Trigger the workflow on push or pull request to the main branch
@@ -47,4 +47,3 @@ jobs:
     - name: Terraform Apply
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: terraform apply -auto-approve    # Auto-approve to skip manual confirmation
-
