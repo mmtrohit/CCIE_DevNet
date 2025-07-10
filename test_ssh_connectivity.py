@@ -1,4 +1,6 @@
-
+"""
+This Script verifies SSH connectivity to all IOS-XE and IOS-XR routers.
+"""
 import yaml
 from netmiko import ConnectHandler
 from colorama import Fore, Style, init
